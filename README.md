@@ -70,3 +70,15 @@ pip install pandas openpyxl
 python main.py
 ```
 The conflict report will be generated as `Conflict_Report.xlsx`. 
+
+## Notes
+- Ensure the file paths and sheet names match your dataset.
+- If any files are missing or have different column names, modify the script accordingly.
+
+## Troubleshooting
+- **FileNotFoundError**: Ensure all required files exist in the specified directory.
+- **KeyError**: Verify column names in the Excel sheets match those used in the script.
+- **Incorrect Output**: Check if privilege codes and entitlements are formatted correctly.
+
+## License
+This project is open-source. You may modify and distribute it as needed.
